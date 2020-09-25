@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    height: 950px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#judul{
+    text-align: center;
+    font-size: 60px;
+}
+
+.dataUser {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 0 10px 5px black;
+    height: 442px
+}
+
+.dataUser h1 {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+    padding: 8px 0;
+}
+
+.box input {
+    width: 100%;
+    padding: 0 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.box label {
+    font-size: 20px;
+    color: white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #DBD8D8  ;
+    opacity: 1; /* Firefox */
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.button1 {
+    width: 100%;
+    background: none;
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: white;
+    margin-top: 37px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h5 {
+    margin-left: 1554px;
+    top: 796px;
+    position: relative;
+    -webkit-mask-position-x: right;
+    font-size: 14px;
+}

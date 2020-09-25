@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    height: 950px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.layar {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    padding: 20px;
+}
+
+#hasil {
+    position: relative;
+    padding: 30px;
+    width: 430px;
+    bottom: 246px;
+    right: 66px;
+    font-size: 44px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    border: 2px solid rgba(0,0,0,0.75);
+}
+
+.inputUser {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 450px;
+    box-shadow: 0 0 10px 5px black;
+    height: 254px
+}
+
+#texTinggi {
+    color: white;
+    position: relative;
+    left: 74px;
+    font-size: 22px;
+    bottom: 226px;
+}
+
+#textBerat {
+    color: white;
+    position: relative;
+    bottom: 175px;
+    left: 2px;
+    font-size: 22px;
+}
+
+.button {
+    width: 100%;
+    background: rgba(0,0,0,0.75);;
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color:white;
+    position: relative;
+    bottom: 166px;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+}
+
+#beratBadan {
+    width: 180px;
+    height: 52px;
+    font-size: 44px;
+    text-align: center;
+    position: relative;
+    top: -163px;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+}
+
+#tinggiBadan {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    left: 265px;
+    bottom: 221px;
+    font-size: 44px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+}
+
+#button {
+    width: 100%;
+    background: rgba(0,0,0,0.75);
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #151414;
+    position: relative;
+    bottom: 166px;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    font-weight: bold;
+}
+
+
+.button2 {
+    width: 26%;
+    background: rgba(0,0,0,0.75);
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #151414;
+    position: relative;
+    bottom: 144px;
+    left: 164px;
+    height: 36px;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    left: 1px;
+    font-weight: bold;
+}
+
+h5 {
+    margin-left: 1554px;
+    top: 862px;
+    position: relative;
+    -webkit-mask-position-x: right;
+    font-size: 14px;
+}
